@@ -8,4 +8,8 @@ describe('Product', function() {
         assert.ok(Product);
     });
 
+
+    it('should accept input', function() {
+        var product = new Product({ name: 'Sony D5833' });
+    });
 });
